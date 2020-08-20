@@ -274,11 +274,12 @@
     .social-list a {
         color: white;
         float: left;
+        padding: 10px;
     }
     /*  Footer section*/
     
     #main-footer {
-        height: auto;
+        height: 200px;
         text-align: center;
         background: #444;
         color: #fff;

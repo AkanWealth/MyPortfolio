@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Asanga | software Developer</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
 </head>
@@ -47,25 +47,33 @@
                 </div>
                 <button type="submit" value="Send Message" class="btn">Submit</button>
             </form>
-        </div>
     </section>
 
     <!--Contact Footer-->
     <footer id="main-footer">
-        <form name="contact" method="POST" data-netlify="true">
-            <div class="social-list">
-                <ul class="social__list">
-                    <h3>Connect with me</h3>
-                    <li class=social-list__item><a class="social-list__link" href="https://www.gmail.com/mail/akan.asanga@gmail.com" target="_blank">Gmail</a></li>
-                    <li class=social-list__item><a class="social-list__link" href="https://www.linkedin.com/in/akan-asanga-895508151/" target="_blank">Linkedin</a></li>
-                    <li class=social-list__item><a class="social-list__link" href="https://github.com/AkanWealth" target="_blank">Github</a></li>
-                </ul>
+        <div class="social-list">
+            <ul class="social__list">
+                <h3>Connect with me</h3>
+                <div class="icons">
+                    <a href="mailto:akan.asanga@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/akan-asanga-895508151/">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/AkanWealth">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="https://twitter.com/iam_akanwealth">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+            </ul>
             </div>
+            <form name="contact" method="POST" data-netlify="true"></form>
             <div class="subscribe-form">
                 <h3>Subscribe to Newsletter</h3>
                 <input type="email" name="email" id="email" placeholder="Email">
-                <button type="submit" class="btn">Subscribe</button>
+                <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
             </div>
+        </div>
         </form>
         AkanWealth &copy; 2020, All right Reserved
     </footer>
