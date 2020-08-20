@@ -82,6 +82,7 @@
     .clr {
         clear: both;
     }
+    /* button section*/
     
     .btn {
         display: inline-block;
@@ -97,6 +98,7 @@
         background: #f7c08a;
         color: #333
     }
+    /* navbar section*/
     
     #navbar {
         background: rgba(0, 0, 0, 0.925);
@@ -133,15 +135,11 @@
         background: #444;
         color: cyan;
     }
+    /* Home section*/
     
     span.text-primary {
         font-size: 60px;
         line-height: 1.2em;
-    }
-    
-    #contact-form {
-        background: grey;
-        height: auto;
     }
     
     #showcase {
@@ -161,6 +159,7 @@
         font-size: 60px;
         line-height: 1.2em;
     }
+    /* About section*/
     
     #about-info .info-right {
         float: right;
@@ -183,6 +182,12 @@
     
     #skills {
         text-align: center;
+    }
+    /* Contact section*/
+    
+    #contact-form {
+        background: grey;
+        height: auto;
     }
     
     #contact-form .form-group {
@@ -213,8 +218,17 @@
         padding: 10px;
         border: 1px #ddd solid;
     }
+    /* Social link*/
+    
+    .social-list,
+    .social-list a {
+        color: white;
+        float: left;
+    }
+    /*  Footer section*/
     
     #main-footer {
+        height: auto;
         text-align: center;
         background: #444;
         color: #fff;
