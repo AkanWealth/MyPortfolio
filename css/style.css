@@ -1,3 +1,52 @@
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+    
+     :root {
+        --ff--primary: 'Source Sans Pro', sans-serif;
+        ;
+        --ff--secondary: 'Source Code Pro', monospace;
+        --fw-reg: 300;
+        --fw-bold: 900;
+        --clr-light: #fff;
+        --clr-dark: #303030;
+        --clr-accent: #16E0BD;
+        --fs-h1: 3rem;
+        --fs-h2: 2.25rem;
+        --fs-h3: 1.25rem;
+        --fs-body: 1rem;
+        --bs: 0.25em 0.25em rgba(204, 107, 107, 0.25), 0.125em 00.125em 0.25em rgba(0, 0, 0, .15);
+    }
+    
+    .intro__img {
+        box-shadow: var(--bs);
+    }
+    
+    @media (min-width: 800px) {
+         :root {
+            --fs-h1: 4.5rem;
+            --fs-h2: 3.75rem;
+            --fs-h3: 1.5rem;
+            --fs-body: 1.125rem;
+        }
+    }
+    /* General styles */
+    
+    body {
+        background: var(--clr-light);
+        color: var(--clr-dark);
+        margin: 0;
+        font-family: var(--ff--primary);
+        font-size: var(--fs-body);
+        line-height: 1.6;
+    }
+    
+    section {
+        padding: 5em 2em;
+    }
+    
     * {
         margin: 0;
         padding: 0;
@@ -65,6 +114,7 @@
     
     .l-heading {
         font-size: 40px;
+        line-height: 1.2;
     }
     
     .py-1 {

@@ -7,6 +7,7 @@
     <title>Akan Asanga | software Developer</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
 </head>
 
 <body>
@@ -31,7 +32,7 @@
                 <Span class="text-primary">Contact Me</Span>
             </h1>
             <h2>Do you have a project you will like to talk about. Please fill the form and let chat</h2>
-            <form action="POST">
+            <form name="contact" method="POST" data-netlify="true">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" class="name" id="name" placeholder="Name">
@@ -44,7 +45,7 @@
                     <label for="message">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                 </div>
-                <button type="submit" class="btn">Submit</button>
+                <button type="submit" value="Send Message" class="btn">Submit</button>
             </form>
         </div>
     </section>
