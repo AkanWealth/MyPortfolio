@@ -1,0 +1,37 @@
+        #navbar h1.logo {
+            float: none;
+            text-align: center;
+        }
+        
+        #nav ul,
+        #navbar ul li {
+            float: none;
+        }
+        
+        #nav ul li a {
+            padding: 5px;
+            border-bottom: #444 dotted 1px;
+        }
+        
+        #showcase {
+            height: 100%;
+        }
+        
+        #about-info .info-right,
+        #about-info .info-left {
+            float: none;
+            width: 100%;
+        }
+        
+        #about-info .info-right {
+            margin-top: 30px;
+        }
+        
+        .social-list,
+        .social-list a {
+            float: none;
+        }
+        
+        #main-footer {
+            height: 100%;
+        }
