@@ -204,8 +204,9 @@ span.text-primary {
 /* Contact section*/
 
 #contact-form {
-    background: grey;
+    background: white;
     height: auto;
+    padding: 20px;
 }
 
 #contact-form .form-group {
@@ -228,6 +229,82 @@ span.text-primary {
 #contact-form input:focus,
 #contact-form textarea {
     outline: none;
+}
+
+#project p {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+
+#project h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px
+}
+
+.project,
+img {
+    background: #ffffff;
+    text-align: left;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 600px;
+    padding: 20px;
+}
+
+.project ul li {
+    list-style: none;
+    font-size: 1.4em;
+}
+
+.project li a {
+    color: green;
+}
+
+.project li a:hover {
+    color: blue;
+}
+
+#project-list-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px
+}
+
+.project-step2 {
+    background: rgb(77, 77, 223);
+    border: #ccc solid 1px;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 600px;
+    height: 300px;
+}
+
+.project-4 {
+    background: white;
+    border: none;
+    text-align: left;
+}
+
+.project-step ul li {
+    list-style: none;
+    font-size: 1.4em;
+}
+
+.project-step2 ul li {
+    list-style: none;
+    font-size: 1.4em;
 }
 
 div.subscribe-form input {

@@ -11,53 +11,56 @@
 </head>
 
 <body>
-
-    <!--About Page Toolbar-->
+    <!-- Toolbar -->
     <header>
         <nav id="navbar">
             <div class="container">
                 <h1 class="logo"><a href="index.html">Akan Asanga</a></h1>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a class="current" href="about.html">About</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="project.html">Project</a></li>
+                    <li><a class="current" href="project.html">Project</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <!--About Page Body-->
-    <section id="about-info" class="bg-light py-3">
+    <!-- Body -->
+    <div id="project">
         <div class="container">
-            <div class="info-left">
-                <h1 class="l-heading"><span class="text-primary">About Me</span>
-                </h1>
-                <p>Akan is a software developer and a problem solver, who has worked remotely in building dynamic and users friendly websites.</p>
-                <p>Akan is a <span class="text-primary"> Back-end </span>JavaScript developer</p>
-            </div>
-            <div class="info-right">
-                <img src="./images/IMG_20200421_124014_251.jpg" alt="portfolio">
-            </div>
+            <h1><span class="text-primary">My Work</span></h1>
+            <p class="lead">Over the years i have being working and building </p>
+            <p>small and large business,</p>
+            <p> here are <span class="text-primary">Project</span> have worked on.</p>
         </div>
-    </section>
-    <div id="skills" class="py-3">
-        <div class="container">
-            <h1 class="l-heading"><span class="text-primary">My Skills</span</h1>
-                <div class="skill-list">
-                <ul>
-                    <li>Problem solving</li>
-                    <li>Version Control(Github)</li>
-                    <li>Vanilla JavaScript</li>
-                    <li>HTML5/CSS3</li>
-                    <li>NodeJs</li>
-                    <li>Vue</li>
-                </ul>
-                </div>
+    </div>
+    <div id="project-list">
+        <img src="./images/project.png" alt="project-image" class="project project-1">
+        <div class="project project-2">
+            <ul>
+                <li>Description: This is a website about deals with productions of snacks and cake, be it small or lager supply</li>
+                <br>
+                <li>Link:
+                    <a href="https://bakeryflow.netlify.app/">Bakery Flow</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="project-list-2">
+        <div class="project-step2 project-3">Sales Record</div>
+        <div class="project-step2 project-4">
+            <ul>
+                <li>Description: This is a website about keeps record of daily sales made in a store deals and it give account of sales not made yet.</li>
+                <br>
+                <br>
+                <li>Link: Coming soon....
+                </li>
+            </ul>
         </div>
     </div>
 
-    <!--About Page Footer-->
+    <!-- footer bar -->
     <footer id="main-footer">
         <div class="social-list">
             <ul class="social__list">
@@ -74,17 +77,16 @@
                         <i class="fab fa-twitter fa-2x"></i>
                     </a>
             </ul>
+            </div>
         </div>
         <form method="POST" data-netlify="true">
-        <div class="subscribe-form">
-            <h3 class="news-letter">Subscribe to Newsletter</h3>
-            <input type="email" name="email" class="email" id="email" placeholder="Email">
-            <button type="submit" class="btn">Subscribe</button>
-        </div>
-        </div>
-        </form>
-        <br>
-        AkanWealth &copy; 2020, All right Reserved
+            <div class="subscribe-form">
+                <h3 class="news-letter">Subscribe to Newsletter</h3>
+                <input type="email" name="email" class="email" id="email" placeholder="Email">
+                <button type="submit" class="btn">Subscribe</button>
+            </div>
+            <br>
+        </form>AkanWealth &copy; 2020, All right Reserved
     </footer>
 </body>
 
