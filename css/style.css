@@ -18,11 +18,9 @@ a {
 h1,
 h2,
 h3 {
-    padding-bottom: 20px;
-}
-
-h3 {
+    color: #fff;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 h5 {
@@ -31,31 +29,43 @@ h5 {
 
 p {
     margin: 10px 0;
-    color: orange;
-    font-size: 2em;
+    color: black;
+    font-size: 1.5em;
     line-height: 1.2em;
 }
 
 p span {
+    font-size: 2.5rem;
     color: black;
     text-align: center;
+}
+
+.name-content {
+    color: #fff;
+    font-size: 3.5rem;
+    padding: 0.5rem;
 }
 
 .container {
     margin: auto;
     max-width: auto;
-    overflow: auto;
+    overflow: hidden;
     padding: 0 20px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .text-primary {
-    color: #f7c08a;
+    margin: auto;
+    color: yellowgreen;
 }
 
 .lead {
     color: #fff;
-    font-size: 3.5em;
-    margin: 10px 0;
+    font-size: 1.4em;
+    margin-bottom: 2rem;
 }
 
 .bg-light {
@@ -69,20 +79,28 @@ p span {
 }
 
 .l-heading {
-    font-size: 30px;
+    color: yellowgreen;
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+}
+
+.m-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
     line-height: 1.2;
 }
 
 .py-1 {
-    padding: 10px 0;
+    padding: 1.5rem 0;
 }
 
 .py-2 {
-    padding: 20px 0;
+    padding: 2rem 0;
 }
 
 .py-3 {
-    padding: 30px 0;
+    padding: 3rem 0;
 }
 
 
@@ -156,6 +174,7 @@ span.text-primary {
     height: 600px;
     text-align: center;
     padding-top: 170px;
+    background-color: #333;
 }
 
 #showcase.showcase-content {
@@ -169,17 +188,22 @@ span.text-primary {
     line-height: 1.2em;
 }
 
-#work {
-    display: grid;
-    grid-gap: 2rem;
+#what .items {
+    display: flex;
+    padding: 1rem;
 }
 
-.work-point {
-    padding: 3rem;
-    border: black 2px solid;
-    font-size: 1.5rem;
-    font-weight: bold;
+#what .items .item {
+    flex: 1;
     text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i {
+    background-color: greenyellow;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 #testimony {
@@ -230,6 +254,7 @@ span.text-primary {
 
 .avatar {
     width: 200px;
+    border-radius: 30%;
 }
 
 
