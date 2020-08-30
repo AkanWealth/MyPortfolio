@@ -1,16 +1,38 @@
-        #navbar h1.logo {
-            float: none;
-            text-align: center;
+        .navbar button {
+            display: inline-block;
         }
         
-        #nav ul,
-        #navbar ul li {
-            float: none;
+        .nav-align {
+            align-items: baseline;
         }
         
-        #nav ul li a {
-            padding: 5px;
-            border-bottom: #444 dotted 1px;
+        .nav-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        
+        .navbar-collapse {
+            height: 0px;
+            overflow: hidden;
+            transition: height ease-in 300ms;
+        }
+        
+        .navbar ul {
+            display: block;
+        }
+        
+        .navbar-collapse.show {
+            max-height: 350px;
+            transition: max-height ease-out 500ms;
+        }
+        
+        .navbar .nav-link {
+            font-size: 20px;
+        }
+        
+        .container {
+            max-width: 740px;
         }
         
         #showcase {
@@ -42,6 +64,12 @@
         
         #about-info .info-right {
             margin-top: 30px;
+        }
+        
+        #project-list {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
         }
         
         .social-list,
