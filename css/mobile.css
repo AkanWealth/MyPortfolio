@@ -55,6 +55,17 @@
             align-self: center;
             margin-bottom: 0;
         }
+                            .picture-grid {
+                                display: grid;
+                                min-height: 500px;
+                                background: black;
+                                grid-template-columns: repeat(2, 1fr);
+                                grid-template-rows: repeat(3, 1fr);
+                                grid-template-areas: "one four" "three six" "five two";
+                                grid-gap: 5px;
+                                border: 3px solid black;
+                                outline: none;
+                            }
         
         #about-info .info-right,
         #about-info .info-left {
@@ -69,7 +80,15 @@
         #project-list {
             display: flex;
             justify-content: flex-end;
-            align-items: center;
+            align-items: left;
+        }
+.project,img{
+    background: #ffffff;
+    padding: 1rem;
+    margin: 0.5rem;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
         }
         
         .social-list,

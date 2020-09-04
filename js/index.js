@@ -23,6 +23,6 @@ window.addEventListener('load', function(event) {
             setTimeout(function name(params) {
                 navbar.style.opacity = '1';
             }, 1000);
-        }, 3000);
+        }, 2000);
     }
 });
