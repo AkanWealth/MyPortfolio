@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 *,
 *::after,
 *::before {
@@ -11,7 +11,7 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Roboto';
+    font-family: "Roboto";
 }
 
 a,
@@ -83,12 +83,12 @@ button {
 }
 
 .hamburger-inner:before {
-    content: '';
+    content: "";
     top: -10px;
 }
 
 .hamburger-inner::after {
-    content: '';
+    content: "";
     bottom: -10px;
 }
 
@@ -143,7 +143,7 @@ button {
     font-size: 3em;
     padding: 0;
     margin-right: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .navbar a {
@@ -163,19 +163,14 @@ button {
 
 .navbar .nav-item:hover {
     background-color: #46d829;
-    /* shorthand */
     transition: all ease-out 300ms;
-    /* long form of doing the same thing */
-    transition-property: all;
-    transition-duration: 200ms;
-    transition-timing-function: ease-out;
 }
 
 .navbar .nav-item:active,
 .nav-item:focus .current {
     color: #32ff09;
     background-color: #51db1a;
-    transition: all ease-out 200ms;
+    /* transition: all ease-out 200ms; */
 }
 
 @media (max-width: 425px) {
@@ -193,10 +188,12 @@ h3 {
     color: #fff;
     text-align: center;
     padding-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 h5 {
     color: grey;
+    font-size: 2rem;
 }
 
 p {
@@ -246,7 +243,7 @@ p span {
 
 .bg-light {
     background: grey;
-    color: #333
+    color: #333;
 }
 
 .bg-primary {
@@ -295,7 +292,7 @@ p span {
 
 .btn:hover {
     background: #f7c08a;
-    color: #333
+    color: #333;
 }
 
 
@@ -307,7 +304,7 @@ span.text-primary {
 }
 
 #showcase {
-    background: url('../images/pexels-neo-2653362.jpg') no-repeat center center/cover;
+    background: url("../images/pexels-neo-2653362.jpg") no-repeat center center/cover;
     height: 600px;
     text-align: center;
     padding-top: 170px;
@@ -372,17 +369,21 @@ span.text-primary {
 
 /* Testimonies*/
 
-#testimony {
-    display: grid;
-    grid-template-columns: 200px;
+.testimony1 {
+    padding: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    width: 60%;
+    margin-left: 100px;
 }
 
 .testimony {
-    padding: 0.5rem;
-    border: #ccc 3px solid;
-    background: #f4f4f4;
+    float: center;
+    padding: 1.5rem;
     font-size: 1rem;
     text-align: center;
+    width: 60%;
+    margin-left: 100px;
 }
 
 
@@ -420,44 +421,43 @@ span.text-primary {
     outline: none;
 }
 
-
 .picture-1 {
-    background: url('https://res.cloudinary.com/dh9ulafxd/image/upload/v1598772730/portfolio/IMG_20200821_115023_372_mc8ewd.jpg');
+    background: url("https://res.cloudinary.com/dh9ulafxd/image/upload/v1598772730/portfolio/IMG_20200821_115023_372_mc8ewd.jpg");
     background-position: center;
     background-size: cover;
     grid-area: one;
 }
 
 .picture-2 {
-    background: url('https://res.cloudinary.com/dh9ulafxd/image/upload/v1598771929/portfolio/7_hqfam3.jpg');
+    background: url("https://res.cloudinary.com/dh9ulafxd/image/upload/v1598771929/portfolio/7_hqfam3.jpg");
     background-position: center;
     background-size: cover;
     grid-area: two;
 }
 
 .picture-3 {
-    background: url('https://res.cloudinary.com/dh9ulafxd/image/upload/v1598771913/portfolio/3_q8glzq.jpg');
+    background: url("https://res.cloudinary.com/dh9ulafxd/image/upload/v1598771913/portfolio/3_q8glzq.jpg");
     background-position: center;
     background-size: cover;
     grid-area: three;
 }
 
 .picture-4 {
-    background: url('https://res.cloudinary.com/rolteame/image/upload/v1598751650/myportfolio%20assets/IMG-20200821-WA0053_heu6hn.jpg');
+    background: url("https://res.cloudinary.com/rolteame/image/upload/v1598751650/myportfolio%20assets/IMG-20200821-WA0053_heu6hn.jpg");
     background-position: center;
     background-size: cover;
     grid-area: six;
 }
 
 .picture-5 {
-    background: url('https://res.cloudinary.com/dh9ulafxd/image/upload/v1598771914/portfolio/6_ewlkop.jpg');
+    background: url("https://res.cloudinary.com/dh9ulafxd/image/upload/v1598771914/portfolio/6_ewlkop.jpg");
     background-position: center;
     background-size: cover;
     grid-area: four;
 }
 
 .picture-6 {
-    background: url('https://res.cloudinary.com/rolteame/image/upload/v1598751650/myportfolio%20assets/IMG-20200821-WA0034_enug9x.jpg');
+    background: url("https://res.cloudinary.com/rolteame/image/upload/v1598751650/myportfolio%20assets/IMG-20200821-WA0034_enug9x.jpg");
     background-position: center;
     background-size: cover;
     grid-area: five;
@@ -495,14 +495,106 @@ span.text-primary {
 
 #skills {
     text-align: center;
-    background: #f4f4f4
+    background: #f4f4f4;
 }
 
 .skill-list ul li {
     list-style: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
     color: #444;
-    font-size: 50px;
-    padding-top: 2px;
+    font-size: 2.3rem;
+    padding-top: 50px;
+    background: yellowgreen;
+}
+
+
+/*Skill Box*/
+
+.skill-list ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    height: 200px;
+    padding: 1rem;
+    background: #444;
+    transition: all 0.5 ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+/*Right side*/
+
+.skill-list ul li:nth-child(odd) div {
+    left: 40px;
+    transform: translate(200px, 0);
+}
+
+
+/* Left side*/
+
+.skill-list ul li:nth-child(even) div {
+    left: -434px;
+    transform: translate(-200px, 0);
+}
+
+
+/*Dot section*/
+
+.skill-list ul li:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 25px;
+    height: 23px;
+    background: inherit;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    transition: background 0.5s ease-in-out;
+}
+
+
+/* Arrow for dot*/
+
+.skill-list div:before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    color: #444;
+}
+
+
+/*Right arrow*/
+
+.skill-list ul li:nth-child(odd) div:before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #444 transparent transparent;
+}
+
+
+/* Left arrow*/
+
+.skill-list ul li:nth-child(even) div:before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #444;
+}
+
+.skill-list ul li.show div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}
+
+.skill-list ul li.show:after {
+    background-color: #444;
 }
 
 .avatar {
@@ -545,14 +637,14 @@ span.text-primary {
 /*Project Section*/
 
 #project p {
-    font-size: 35px;
+    font-size: 1.5rem;
     text-align: center;
     color: black;
 }
 
 #project h1 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #project-list {
@@ -561,7 +653,7 @@ span.text-primary {
     justify-content: flex-start;
     align-items: center;
     padding: 20px;
-    height: 100%
+    height: 100%;
 }
 
 .project,
@@ -576,7 +668,7 @@ img {
 
 .project ul li {
     list-style: none;
-    font-size: 1.4em;
+    font-size: 1.0em;
 }
 
 .project li a {
@@ -592,7 +684,7 @@ img {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px
+    padding: 20px;
 }
 
 .project-step2 {
@@ -640,7 +732,7 @@ div.subscribe-form input {
     padding: 10px;
     border: 1px #ddd solid;
     border-radius: 30px;
-    outline: none
+    outline: none;
 }
 
 .news-letter {

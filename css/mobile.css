@@ -37,7 +37,7 @@
         
         #showcase {
             height: 100%;
-            color: rgb(42, 42, 141)
+            color: #2a2a8d
         }
         
         #what .items {
@@ -55,17 +55,18 @@
             align-self: center;
             margin-bottom: 0;
         }
-                            .picture-grid {
-                                display: grid;
-                                min-height: 500px;
-                                background: black;
-                                grid-template-columns: repeat(2, 1fr);
-                                grid-template-rows: repeat(3, 1fr);
-                                grid-template-areas: "one four" "three six" "five two";
-                                grid-gap: 5px;
-                                border: 3px solid black;
-                                outline: none;
-                            }
+        
+        .picture-grid {
+            display: grid;
+            min-height: 500px;
+            background: #fff;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas: "one four" "three six" "five two";
+            grid-gap: 5px;
+            border: 3px solid black;
+            outline: none;
+        }
         
         #about-info .info-right,
         #about-info .info-left {
@@ -77,18 +78,39 @@
             margin-top: 30px;
         }
         
+        .skill-list ul li div {
+            /*width: 180px;*/
+            width: calc(100vw - 95px);
+        }
+        
+        .skill-list ul li:nth-child(even) div {
+            left: 40px;
+        }
+        
+        .skill-list ul li {
+            margin-left: 20px;
+        }
+        
+        .skill-list ul li:nth-child(even) div:before {
+            left: -15px;
+            border-width: 8px 16px 8px 0;
+            border-color: transparent #444 transparent transparent;
+        }
+        
         #project-list {
             display: flex;
             justify-content: flex-end;
             align-items: left;
         }
-.project,img{
-    background: #ffffff;
-    padding: 1rem;
-    margin: 0.5rem;
-    height: 100%;
-    width: 100%;
-    padding: 20px;
+        
+        .project,
+        img {
+            background: #ffffff;
+            padding: 1rem;
+            margin: 0.5rem;
+            height: 100%;
+            width: 100%;
+            padding: 20px;
         }
         
         .social-list,
