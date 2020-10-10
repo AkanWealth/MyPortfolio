@@ -34,7 +34,7 @@ button {
 /* Navbar section*/
 
 .navbar {
-    background-color: #333;
+    background-color: #6fc45e;
     padding: 15px 0px;
     box-shadow: 0 3px 4px 1px rgba(65, 64, 64, 0.2);
 }
@@ -219,13 +219,6 @@ p span {
     padding: 0.5rem;
 }
 
-.container {
-    margin: auto;
-    max-width: auto;
-    overflow: hidden;
-    padding: 0 20px;
-}
-
 .text-center {
     text-align: center;
 }
@@ -325,6 +318,10 @@ span.text-primary {
 
 /* What i do*/
 
+#what {
+    background-color: #6fc45e;
+}
+
 #what .items {
     display: flex;
     padding: 1rem;
@@ -369,21 +366,35 @@ span.text-primary {
 
 /* Testimonies*/
 
+section#people {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .testimony1 {
-    padding: 1.5rem;
-    font-size: 1rem;
+    /* padding: 1.5rem; */
+    font-size: 0.7rem;
     text-align: center;
-    width: 60%;
-    margin-left: 100px;
+    width: 40%;
+    height: 500px;
+    background-color: #6fc45e;
+    border-radius: 25px;
 }
 
 .testimony {
-    float: center;
-    padding: 1.5rem;
-    font-size: 1rem;
+    /* padding: 1.5rem; */
+    font-size: 0.7rem;
     text-align: center;
-    width: 60%;
-    margin-left: 100px;
+    width: 40%;
+    height: auto;
+    background-color: #6fc45e;
+    border-radius: 25px;
+}
+
+.avatar-people {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5%;
 }
 
 
@@ -471,6 +482,17 @@ span.text-primary {
 
 /* About section*/
 
+section#about-info {
+    background-color: #6fc45e;
+}
+
+.containers {
+    margin: auto;
+    max-width: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
 #about-info .info-right {
     float: right;
     width: 50%;
@@ -495,7 +517,6 @@ span.text-primary {
 
 #skills {
     text-align: center;
-    background: #f4f4f4;
 }
 
 .skill-list ul li {
@@ -518,7 +539,7 @@ span.text-primary {
     width: 400px;
     height: 200px;
     padding: 1rem;
-    background: #444;
+    background: #6fc45e;
     transition: all 0.5 ease-in-out;
     visibility: hidden;
     opacity: 0;
@@ -566,7 +587,8 @@ span.text-primary {
     width: 0;
     height: 0;
     border-style: solid;
-    color: #444;
+    color: #6fc45e;
+    ;
 }
 
 
@@ -575,7 +597,7 @@ span.text-primary {
 .skill-list ul li:nth-child(odd) div:before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #444 transparent transparent;
+    border-color: transparent #6fc45e transparent transparent;
 }
 
 
@@ -584,7 +606,7 @@ span.text-primary {
 .skill-list ul li:nth-child(even) div:before {
     right: -15px;
     border-width: 8px 0 8px 16px;
-    border-color: transparent transparent transparent #444;
+    border-color: transparent transparent transparent #6fc45e;
 }
 
 .skill-list ul li.show div {
@@ -600,6 +622,11 @@ span.text-primary {
 .avatar {
     width: 200px;
     border-radius: 30%;
+}
+
+.span {
+    color: #fff;
+    font-size: 2.5rem;
 }
 
 
@@ -746,7 +773,7 @@ div.subscribe-form input {
 #main-footer {
     height: 100%;
     text-align: center;
-    background: #444;
+    background: #6fc45e;
     color: #fff;
     padding: 20px;
 }

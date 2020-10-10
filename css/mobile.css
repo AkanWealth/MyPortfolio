@@ -94,7 +94,7 @@
         .skill-list ul li:nth-child(even) div:before {
             left: -15px;
             border-width: 8px 16px 8px 0;
-            border-color: transparent #444 transparent transparent;
+            border-color: transparent #6fc45e transparent transparent;
         }
         
         #project-list {
