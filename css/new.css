@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    width: 70%;
+}
+
+.navbar-brand {
+    font-size: 2.3rem;
+}
+
+.landing-page {
+    background: url("../images/landingPage.jpg") no-repeat center center/cover;
+    height: 100vh;
+    padding-top: 200px;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.testimonial p {
+    color: #fff;
+    line-height: 19px;
+    font-size: 13px;
+    margin-top: 16px
+}
+
+.col-md-4 {
+    margin-top: 25px
+}
+
+
+/*Moments Picture Grid*/
+
+.moments {
+    width: 100%;
+    height: 100%;
+    color: var(--text-color);
+    padding: 2%;
+    background: var(--nav-bg-color);
+    transition: all ease-in 0.5s;
+}
+
+.moments h2 {
+    text-align: center;
+    padding: 2%;
+    font-size: 30px;
+}
+
+.moments p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.picture-grid {
+    display: grid;
+    min-height: 500px;
+    background: black;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "one two five" "one three five" "four three six";
+    grid-gap: 5px;
+    border: 3px solid black;
+    outline: none;
+}
+
+.picture-1 {
+    background: url("https://res.cloudinary.com/dh9ulafxd/image/upload/v1598772730/portfolio/IMG_20200821_115023_372_mc8ewd.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-area: one;
+}
+
+.picture-2 {
+    background: url("https://res.cloudinary.com/dh9ulafxd/image/upload/v1598771929/portfolio/7_hqfam3.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-area: two;
+}
+
+.picture-3 {
+    background: url("https://res.cloudinary.com/dh9ulafxd/image/upload/v1598771913/portfolio/3_q8glzq.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-area: three;
+}
+
+.picture-4 {
+    background: url("https://res.cloudinary.com/rolteame/image/upload/v1598751650/myportfolio%20assets/IMG-20200821-WA0053_heu6hn.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-area: six;
+}
+
+.picture-5 {
+    background: url("https://res.cloudinary.com/dh9ulafxd/image/upload/v1598771914/portfolio/6_ewlkop.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-area: four;
+}
+
+.picture-6 {
+    background: url("https://res.cloudinary.com/rolteame/image/upload/v1598751650/myportfolio%20assets/IMG-20200821-WA0034_enug9x.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-area: five;
+}
+
+
+/* newsletter */
+
+.home-newsletter {
+    padding: 80px 0;
+    /* background: #f84e77; */
+}
+
+.home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.home-newsletter .single .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    /* border-color: transparent; */
+    border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #c90959;
+}
+
+.home-newsletter .single .btn {
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: #c90959;
+    color: #fff;
+}
+
+
+/* About-me Section*/
+
+.how-section1 {
+    margin-top: -15%;
+    padding: 10%;
+}
+
+.how-section1 .subheading {
+    color: #3931af;
+    font-size: 20px;
+}
+
+.how-section1 .row {
+    margin-top: 10%;
+}
+
+.how-img {
+    text-align: center;
+}
+
+.how-img img {
+    width: 70%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+#cv .btn:hover {
+    background-color: #c90959;
+}
