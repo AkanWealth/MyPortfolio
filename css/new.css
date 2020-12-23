@@ -64,7 +64,7 @@ hr {
 .picture-grid {
     display: grid;
     min-height: 500px;
-    background: black;
+    background: #fff;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "one two five" "one three five" "four three six";
