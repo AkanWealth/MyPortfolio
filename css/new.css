@@ -9,6 +9,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+a,
+a:hover,
+a:active {
+    outline: none;
+    text-decoration: none;
+}
+
 hr {
     width: 70%;
 }
@@ -179,4 +186,5 @@ hr {
 
 #cv .btn:hover {
     background-color: #c90959;
+    color: #fff;
 }
